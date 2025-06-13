@@ -8,7 +8,7 @@ class Node{
 }
 public class ConsLL {
     public static void main(String[] args) {
-        start = new Node(22);
+        Node start = new Node(22);
         Node p = start;
         p.next = new Node(33);
         p = p.next;
