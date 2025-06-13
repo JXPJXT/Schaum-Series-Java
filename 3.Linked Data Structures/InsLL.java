@@ -1,4 +1,4 @@
-public class InsNonEmptySortedLL {
+public class InsLL {
     public static void main(String[] args) {
         Node start = new Node(22);
         Node p = start;
