@@ -7,10 +7,10 @@ interface Stack<E> {
 }
 public abstract  class AbstractStack<E> implements Stack<E>{
     protected int size;
-    public boolean is Empty(){
+    boolean isEmpty(){
         return (size==0);
     }
-    abtract public E peek();
+    abstract public E peek();
     abstract public E pop();
     abstract public void push(E element);
     public int size(){
